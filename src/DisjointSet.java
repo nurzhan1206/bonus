@@ -11,6 +11,8 @@ public class DisjointSet {
         }
     }
 
+
+
     // Найти представителя множества (с сжатием пути)
     public int find(int i) {
         if (parent[i] == i) {

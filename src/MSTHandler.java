@@ -2,6 +2,7 @@ import java.util.*;
 
 public class MSTHandler {
 
+
     private final int V; // Количество вершин
     private final List<Edge> allEdges; // Все ребра исходного графа
     private List<Edge> mstEdges; // Ребра, составляющие MST
